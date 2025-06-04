@@ -8,6 +8,8 @@ def login():
 
     if username == valid_username and password == valid_password:
         print("Login successful!")
+        print("Login successful from main branch!")
+
         return True
     else:
         print("Invalid username or password.")
